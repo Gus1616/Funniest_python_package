@@ -8,4 +8,7 @@ setup(name='funniest',
       author_email='flyingcircus@example.com',
       license='MIT',
       packages=['funniest'],
-      zip_safe=False)
+      entry_points = {
+        'console_scripts': ['system_information=funniest.command_line:main'],
+      }
+      )
