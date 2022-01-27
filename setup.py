@@ -9,6 +9,6 @@ setup(name='funniest',
       license='MIT',
       packages=['funniest'],
       entry_points = {
-        'console_scripts': ['system_information=funniest.command_line:main'],
+        'console_scripts': ['sys_info_comp30380=funniest.command_line:main'],
       }
       )
